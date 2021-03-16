@@ -1,0 +1,21 @@
+{
+	"name": "Rust",
+	"dockerFile": "Dockerfile",
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"dart-code.rust",
+		"dart-code.rust-analyzer"
+	],
+	// This command create an example project after the container is created.
+	// "postCreateCommand": "flutter create test_project",
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [3000, 8888],
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+
+	//"runArgs": ["-v", "/var/run/docker.sock:/var/run/docker.sock"]
+}
