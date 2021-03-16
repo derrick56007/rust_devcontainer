@@ -1,6 +1,8 @@
 {
 	"name": "Rust",
-	"dockerFile": "Dockerfile",
+	"image": "derrick56007/rust_devcontainer:latest",
+	// "dockerFile": "Dockerfile",
+
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
